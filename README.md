@@ -42,8 +42,8 @@ let instance = Heatmap('#containerId', {
             url: "path",
             width: 100, // if not set, naturalWidth of the image will be considered
             height: 100, // if not set, naturalWidth of the image will be considered
-            x: 0,
-            y: 0
+            x: 0, // if not set, will be default 0
+            y: 0 // if not set, will be default 0
         },
         gradient: [{
             color: [0, 0, 255, 1.0],
